@@ -12,9 +12,8 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Contact Zalo Report
 
 == Description ==
-
-
-
+display Chat Zalo ,call mobile,report click from chat zalo,setting change color zalo
+fixed chat zalo location left
 === From within WordPress ===
 
 1. Visit 'Plugins > Add New'
@@ -33,8 +32,7 @@ Contact Zalo Report
 3. Activate Contact Zalo Report from your Plugins page.
 
 == Help ==
-https://...
-https://...
+https://github.com/sonwebtl/ButtonChatZaloReport-SW
 
 == Screenshots ==
 1. Visit Plugins > Contact Zalo Report SW
