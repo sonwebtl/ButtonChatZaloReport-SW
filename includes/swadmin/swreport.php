@@ -37,7 +37,7 @@ if (!defined('ABSPATH')) {
                 <tr>
                     <td> <?php echo esc_html($key + 1); ?> </td>
                     <td> <?php echo esc_html($row->click); ?> </td>
-                    <td> <?php echo date("d/m/Y", strtotime($row->clickdate)); ?> </td>
+                    <td> <?php echo esc_html(date("d/m/Y", strtotime($row->clickdate) ) ) ; ?> </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
