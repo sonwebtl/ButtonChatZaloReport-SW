@@ -1,7 +1,7 @@
 <?php 
 /**
  * Plugin Name: Button Chat Zalo Report SW
- * Plugin URI: sonweb.net
+ * Plugin URI: https://github.com/sonwebtl/ButtonChatZaloReport-SW
  * Description: Display button Chat Zalo and call phone and report click Zalo in day,change color button chat...
  * Version: 1.0.0
  * Author: SonWeb
