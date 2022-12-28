@@ -38,10 +38,10 @@ if (!function_exists('zcswr_pcnButton') ) {
 			<!-- css admin All in one -->
 			<style type="text/css">
 				.btn_chatZalo {
-					background-color: <?php echo sanitize_hex_color(get_option('wtl_swcolor'));?> !important;
+					background-color: <?php echo esc_html(get_option('wtl_swcolor'));?> !important;
 				}
 				.ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
-					background-color: <?php echo sanitize_hex_color(get_option('wtl_swcolor'));?> !important;
+					background-color: <?php echo esc_html(get_option('wtl_swcolor'));?> !important;
 				}
 			</style>
 			
