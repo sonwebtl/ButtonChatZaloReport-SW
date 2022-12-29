@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
             </tr>
             <tr valign="top">
                 <th scope="row"><?php esc_html_e('Background Color:'); ?></th>
-                <td><input type="text" name="wtl_swcolor" class="cpa-color-picker" value="<?php esc_html($wtl_swcolor); ?>" data-default-color="<?php echo sanitize_hex_color('#0088cc');?> " /></td>
+                <td><input type="text" name="wtl_swcolor" class="cpa-color-picker" value="<?php esc_html($wtl_swcolor); ?>" data-default-color="<?php echo esc_html('#0088cc');?> " /></td>
             </tr>
         </table>
         <p class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" /></p>
