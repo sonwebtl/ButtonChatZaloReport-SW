@@ -22,7 +22,7 @@ if (!function_exists('zcswr_pcnButton') ) {
 					<div class="ring-alo-ph-circle"></div>
 					<div class="ring-alo-ph-circle-fill"></div>
 					<div class="ring-alo-ph-img-circle">
-						<a href="tel:<?php echo get_option('wtlswPhone')?>">
+						<a href="tel:<?php echo esc_html(get_option('wtlswPhone'));?>">
 							<?php $img_zalo = ZCSWRP_PLUGIN_URL . '/assets/phone-ring.png' ?>
 							<img class="" src="<?php echo esc_url($img_zalo); ?>" />
 						</a>
